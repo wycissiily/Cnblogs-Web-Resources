@@ -11,7 +11,7 @@ $(function(){
 		else if(chs[i].tagName=="H5")chs[i].innerHTML="&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;"+chs[i].innerHTML;
 		else if(chs[i].tagName=="H6")chs[i].innerHTML="&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;"+chs[i].innerHTML;
 		var bt=$("<button></button>").attr("id","contentlinks").append(chs[i]);
-		bt.click(function(){window.scrollTo(0,doc.getElementById(this.childNodes[0].id).offset().top-80);});
+		bt.click(function(){window.scrollTo(0,doc.getElementById(this.childNodes[0].id).offsetTop-80);});
 		sons.push(bt,"<br>");
 	}
 	$("#menu").append(sons);
