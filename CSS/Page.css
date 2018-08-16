@@ -161,25 +161,38 @@ body{
   overflow-x:hidden;
 }
 p{font-size:16px;}
-pre.cpp>code.hljs{
-  font-family:"Consolas"!important;
-  color:#BED6FF!important;
-  opacity:0.9;
-  background-color:#1E1E1E!important;
-}
-pre>code.hljs{background-color:rgba(255,255,255,0.1)!important;}
 #tbCommentBody{background:rgba(255,255,255,0.6);}
 #q{background:rgba(255,255,255,0.4)!important;}
 #google_q{background:rgba(255,255,255,0.4)!important;}
-.hljs-meta{color:#79ABFF;}
-.hljs-meta-string>#special{color:#79ABFF;}
-.hljs-keyword{color:#FFFFFF;font-weight:400;}
-.hljs-literal{color:#FFFFFF;font-weight:400;}
-.hljs-built_in{color:#FFFFFF;}
-.hljs-number{color:#7FB347}
-.hljs-title{color:#BED6FF;}
-.hljs-string{color:#FFC600;}
-.hljs-comment{color:#FFC600;}
+pre>code.hljs{opacity:0.9;}
+pre.cpp>code.hljs{
+  font-family:"Consolas"!important;
+  color:#BED6FF!important;
+  background-color:#1E1E1E!important;
+}
+pre.css>code.hljs{
+  font-family:"Consolas"!important;
+  color:#F8F8F2!important;
+  background-color:#272822!important;
+}
+pre.cpp .hljs-meta{color:#79ABFF;}
+pre.cpp .hljs-meta-string>#special{color:#79ABFF;}
+pre.cpp .hljs-keyword{color:#FFFFFF;font-weight:400;}
+pre.cpp .hljs-literal{color:#FFFFFF;font-weight:400;}
+pre.cpp .hljs-built_in{color:#FFFFFF;}
+pre.cpp .hljs-number{color:#7FB347}
+pre.cpp .hljs-title{color:#BED6FF;}
+pre.cpp .hljs-string{color:#FFC600;}
+pre.cpp .hljs-comment{color:#FFC600;}
+pre.css .hljs-selector-id{color:#A6E22E;}
+pre.css .hljs-selector-class{color:#A6E22E;}
+pre.css .hljs-number{color:#AE81FF;}
+pre.css .hljs-string{color:#E6DB74;}
+pre.css .hljs-meta{color:#B92659;}
+pre.css .hljs-selector-tag{color:#F9264C;}
+pre.css .hljs-selector-pseudo{color:#F8F8F2;}
+pre.css .hljs-attribute{color:#66D9EF;}
+pre.css .hljs-built_in{color:#66D9EF;}
 table{width:100%;}
 #sideBar div{background:rgba(0,0,0,0);}
 .header{background-color:rgba(0,0,0,0.15)}
