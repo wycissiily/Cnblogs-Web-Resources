@@ -175,6 +175,16 @@ pre.css>code.hljs{
   color:#F8F8F2!important;
   background-color:#272822!important;
 }
+pre.html>code.hljs.xml{
+  font-family:"Consolas"!important;
+  color:#F8F8F2!important;
+  background-color:#272822!important;
+}
+pre.javascript>code.hljs{
+  font-family:"Consolas"!important;
+  color:#F8F8F2!important;
+  background-color:#272822!important;
+}
 pre.cpp .hljs-meta{color:#79ABFF;}
 pre.cpp .hljs-meta-string>#special{color:#79ABFF;}
 pre.cpp .hljs-keyword{color:#FFFFFF;font-weight:400;}
@@ -193,6 +203,17 @@ pre.css .hljs-selector-tag{color:#F9264C;}
 pre.css .hljs-selector-pseudo{color:#F8F8F2;}
 pre.css .hljs-attribute{color:#66D9EF;}
 pre.css .hljs-built_in{color:#66D9EF;}
+pre.html .hljs-name{color:#F92659;}
+pre.html .hljs-attr{color:#A6E22E;}
+pre.html .hljs-string{color:#E6DB67;}
+pre.html .hljs-tag{color:#F8F8F2;}
+pre.javascript .hljs-keyword{color:#66D9EF;}
+pre.javascript .hljs-string{color:#E6DB74;}
+pre.javascript .hljs-built_in{color:#66D9EF;}
+pre.javascript .hljs-title{color:#A6E22E;}
+pre.javascript .hljs-params{color:#FD971F;}
+pre.javascript .hljs-regexp{color:#E6BF4D;}
+pre.javascript .hljs-number{color:#AE81FF;}
 table{width:100%;}
 #sideBar div{background:rgba(0,0,0,0);}
 .header{background-color:rgba(0,0,0,0.15)}
