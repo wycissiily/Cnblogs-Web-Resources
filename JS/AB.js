@@ -4,4 +4,5 @@ $(function(){
 	$("#cnblogs_c1").remove();
 	$("#under_post_news").remove();
 	$("#under_post_kb").remove();
+	$("#cnblogs_c2").remove();
 });
